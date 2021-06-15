@@ -1,0 +1,15 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "deno.importMap": "import_map.json",
+  "markdownlint.config": {
+    "default": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": false
+  }
+}

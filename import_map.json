@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "oak/": "https://deno.land/x/oak@v7.4.1/",
+    "std/": "https://deno.land/std@0.96.0/",
+    "mimetypes/": "https://deno.land/x/mimetypes@v1.0.0/"
+  }
+}
