@@ -1,6 +1,6 @@
 import { Application, Context, isHttpError, send, Status } from "oak/mod.ts";
 import { bgBlue, yellow } from "std/fmt/colors.ts";
-import { router as indexRouter } from "@/server/routes/index.ts";
+import { router as indexRouter } from "@/server/routes/index.tsx";
 import { staticFilesSendOptionsBase } from "@/server/utils/options.ts";
 
 export const app: Application = new Application();

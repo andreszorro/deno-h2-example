@@ -7,9 +7,12 @@
   - [x] Velociraptor Scripts Setup
 - [x] Test setup
   - [x] Coverage Report Setup (lcov)
-  - [ ] Test Front-End Components
-- [ ] Create SSR React Front-End
-- [ ] "Compile to Front-End" Setup
+  - [ ] Test Front-End React Components
+- [x] Create SSR React Front-End
+  - [ ] Abstract away Layout React Component
+  - [ ] Solution for React Router on Server-Side
+  - [ ] "Compile to Front-End" Setup
+  - [ ] Add CSS-in-JS solution
 - [ ] Docker Multi-Stage Image Build
 - [ ] Deploy Image to AWS Lambda Serverless
 

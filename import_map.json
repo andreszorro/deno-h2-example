@@ -5,6 +5,9 @@
     "mock/": "https://deno.land/x/mock@v0.9.5/",
     "oak": "https://deno.land/x/oak@v7.4.1/",
     "oak/": "https://deno.land/x/oak@v7.4.1/",
-    "std/": "https://deno.land/std@0.96.0/"
+    "std/": "https://deno.land/std@0.96.0/",
+    "react": "https://esm.sh/react@17.0.2?target=deno",
+    "react-dom": "https://esm.sh/react-dom@17.0.2?target=deno",
+    "react-dom/server": "https://esm.sh/react-dom@17.0.2/server?target=deno"
   }
 }
