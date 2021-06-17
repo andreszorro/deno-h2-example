@@ -1,5 +1,6 @@
 {
   "imports": {
+    "@/": "./",
     "deno_dom/": "https://deno.land/x/deno_dom@v0.1.12-alpha/",
     "mock/": "https://deno.land/x/mock@v0.9.5/",
     "oak": "https://deno.land/x/oak@v7.4.1/",

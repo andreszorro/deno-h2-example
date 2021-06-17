@@ -15,12 +15,6 @@
   <hello-world></hello-world>
 </body>
 
-<script defer>
-  (() => {
-    window.setTimeout(async () => {
-      const element = await import('./widgets/hello-world.js');
-    }, 1000);
-  })();
-</script>
+<script defer src="/main.js"></script>
 
 </html>

@@ -1,6 +1,6 @@
 import { Context, Router, send } from "oak/mod.ts";
-import { staticFilesSendOptionsBase } from "../utils/options.ts";
-import { pushResources } from "./../utils/headers.ts";
+import { staticFilesSendOptionsBase } from "@/server/utils/options.ts";
+import { pushResources } from "@/server/utils/headers.ts";
 
 // Routes
 export const router: Router = new Router();
