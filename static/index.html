@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test Document</title>
-  <script type="module" src="./html-elements/todo-list.js"></script>
+  <script type="module" src="./widgets/todo-list.js"></script>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 <script defer>
   (() => {
     window.setTimeout(async () => {
-      const element = await import('./html-elements/hello-world.js');
+      const element = await import('./widgets/hello-world.js');
     }, 1000);
   })();
 </script>

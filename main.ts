@@ -43,7 +43,7 @@ router.get("/", async (ctx: Context) => {
     rel: "preload",
     as: "style",
   }, {
-    path: "/html-elements/hello-world.js",
+    path: "/widgets/hello-world.js",
     rel: "modulepreload",
     as: "script",
   }]);
