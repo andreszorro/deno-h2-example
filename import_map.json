@@ -1,7 +1,9 @@
 {
   "imports": {
+    "deno_dom/": "https://deno.land/x/deno_dom@v0.1.12-alpha/",
+    "mock/": "https://deno.land/x/mock@v0.9.5/",
+    "oak": "https://deno.land/x/oak@v7.4.1/",
     "oak/": "https://deno.land/x/oak@v7.4.1/",
-    "std/": "https://deno.land/std@0.96.0/",
-    "mimetypes/": "https://deno.land/x/mimetypes@v1.0.0/"
+    "std/": "https://deno.land/std@0.96.0/"
   }
 }

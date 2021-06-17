@@ -1,7 +1,25 @@
 {
-  "$schema": "https://deno.land/x/denon/schema.json",
   "scripts": {
-    "start": "deno run --allow-env --allow-net --allow-read=. --unstable main.ts"
-  },
-  "importmap": "import_map.json"
+    "start": {
+      "cmd": "deno run main.ts",
+      "allow": {
+        "env": true,
+        "read": ".",
+        "net": true
+      },
+      "unstable": true,
+      "imap": "import_map.json"
+    },
+    "test": {
+      "cmd": "deno test",
+      "unstable": true,
+      "imap": "import_map.json"
+    },
+    "coverage": [
+      "rm -rf coverage/* || true",
+      "vr run test --coverage=coverage/profile",
+      "deno coverage coverage/profile --lcov > coverage/profile.lcov",
+      "genhtml -o coverage/html coverage/profile.lcov"
+    ]
+  }
 }

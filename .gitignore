@@ -1,2 +1,3 @@
 certs/localhost.crt
 certs/localhost.key
+coverage
