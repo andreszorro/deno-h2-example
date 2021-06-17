@@ -1,5 +1,20 @@
 # Deno HTTP2 Example
 
+### Milestones
+
+- [x] Starter Deno Setup
+  - [x] TRex Dependencies
+  - [x] Velociraptor Scripts Setup
+- [x] Test setup
+  - [x] Coverage Report Setup (lcov)
+  - [ ] Test Front-End Components
+- [ ] Create SSR React Front-End
+- [ ] "Compile to Front-End" Setup
+- [ ] Docker Multi-Stage Image Build
+- [ ] Deploy Image to AWS Lambda Serverless
+
+---
+
 ## Instructions
 
 1. Install [Deno](https://deno.land/#installation)
@@ -10,8 +25,6 @@
    2. Move generated files to `certs/` folder and rename them to `localhost.key`
       and `localhost.crt` accordingly.
 4. Run `vr start`
-
----
 
 ## Install Dependencies
 
