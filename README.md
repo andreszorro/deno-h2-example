@@ -5,16 +5,22 @@
 - [x] Starter Deno Setup
   - [x] TRex Dependencies
   - [x] Velociraptor Scripts Setup
-- [x] Test setup
+- [ ] Test setup
   - [x] Coverage Report Setup (lcov)
   - [ ] Test Front-End React Components
-- [x] Create SSR React Front-End
+- [ ] Create SSR React Front-End
+  - [x] Render an SSR Component with React
+  - [x] Solution for React Router on Server-Side
+  - [ ] Hydrate React App Server Props on Client-Side
   - [ ] Abstract away Layout React Component
-  - [ ] Solution for React Router on Server-Side
-  - [ ] "Compile to Front-End" Setup
+  - [x] "Compile to Front-End" Setup
   - [ ] Add CSS-in-JS solution
+  - [ ] Add env variables
 - [ ] Docker Multi-Stage Image Build
+  - [ ] Build Front-End file for production
+  - [ ] Compile server binary
 - [ ] Deploy Image to AWS Lambda Serverless
+  - [ ] Use some kind of Cloudfront-S3-Lambda-API Gateway setup
 
 ---
 
