@@ -21,6 +21,7 @@
   - [ ] Compile server binary
 - [ ] Deploy Image to AWS Lambda Serverless
   - [ ] Use some kind of Cloudfront-S3-Lambda-API Gateway setup
+  - [ ] Review [Pulumi](https://www.pulumi.com/docs/get-started/aws/)
 
 ---
 
