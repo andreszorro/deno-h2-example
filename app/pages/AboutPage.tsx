@@ -1,5 +1,5 @@
-import React, { ReactElement } from "react";
+import React from "react";
 
-const AboutPage = (): ReactElement => (<h1>About</h1>);
+const AboutPage = (): JSX.Element => (<h1>About</h1>);
 
 export default AboutPage;

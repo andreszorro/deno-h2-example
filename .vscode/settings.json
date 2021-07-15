@@ -2,14 +2,28 @@
   "deno.enable": true,
   "deno.lint": true,
   "deno.unstable": true,
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true,
   "editor.defaultFormatter": "denoland.vscode-deno",
   "deno.importMap": "import_map.json",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
   "markdownlint.config": {
     "default": false
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.markdownlint": false
+  },
+  "slides.folder": "./docs",
+  "slides.vscodeSettings": {
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": true,
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "deno.importMap": "import_map.json",
+    "workbench.colorCustomizations": {
+      "editorCursor.background": "#444",
+      "editorCursor.foreground": "#FF0000",
+      "editor.lineHighlightBackground": "#666",
+      "editor.selectionBackground": "#662020"
+    }
   }
 }

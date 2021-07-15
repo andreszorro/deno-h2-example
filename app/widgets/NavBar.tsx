@@ -1,8 +1,8 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import routes, { RouteInfo } from "../routes.ts";
 
-const NavBar = (): ReactElement => (
+const NavBar = (): JSX.Element => (
   <nav>
     <ul>
       {routes.map((route: RouteInfo) =>

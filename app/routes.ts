@@ -1,11 +1,10 @@
-import { ReactElement } from "react";
 import AboutPage from "./pages/AboutPage.tsx";
 import HomePage from "./pages/HomePage.tsx";
 
 export type RouteInfo = {
   path: string;
   name: string;
-  pageComponent: () => ReactElement;
+  pageComponent: () => JSX.Element;
 };
 
 const routes: RouteInfo[] = [

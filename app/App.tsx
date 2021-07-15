@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./widgets/NavBar.tsx";
 import routes, { RouteInfo } from "./routes.ts";
@@ -6,7 +6,7 @@ import routes, { RouteInfo } from "./routes.ts";
 // type AppProps = {
 // };
 
-const App = (/* {}: AppProps */): ReactElement => {
+const App = (/* {}: AppProps */): JSX.Element => {
   return (
     <main>
       <div onClick={(e) => window.alert("Hello World")}>
